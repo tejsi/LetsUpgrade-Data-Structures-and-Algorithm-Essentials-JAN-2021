@@ -1,0 +1,43 @@
+Question 1:
+  if __name__ == '__main__':
+    for i in range (1,5):
+        if (i==1):
+            print(i)
+        elif (i > 1):
+            print(i, end="")
+            for j in range (0,i-1):
+                print("*", end="")
+                print(i, end="")
+            print ()
+                
+               
+ Question 2:
+ #include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i,j,n;
+ clrscr();
+ printf("\n Enter the value of n:");
+ scanf("%d",&n);
+ for(i=0;i<=n;i++)
+ {
+  for(j=1;j<i;j++)
+  {
+   if((i+j)%2==0)
+   {
+  printf("\t 0");
+   }
+ else
+ {
+  printf("\t 1");
+ }
+  }
+ printf("\n");
+ }
+getch();
+
+}
+
+Question 3:
+The array name can be used to access all the elements of the array. The only different between an array name and a normal pointer variable is that an array name always points to a specific address, which is the starting address of the array. Pointers are flexible and can point to where ever you want them to point.
